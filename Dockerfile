@@ -12,6 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     DEBIAN_FRONTEND=noninteractive \
     apt-get install -y \
     python-pip
+RUN pip install -U pip
 RUN pip install boto
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get clean autoclean && \
