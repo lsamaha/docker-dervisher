@@ -21,4 +21,4 @@ RUN DEBIAN_FRONTEND=noninteractive \
 # dervisher
 
 RUN pip install dervisher
-ENTRYPOINT ["dervisher"]
+# ENTRYPOINT ["dervisher"]
