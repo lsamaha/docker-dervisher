@@ -1,10 +1,6 @@
 FROM debian:wheezy
 MAINTAINER lwsamaha
 
-# users
-
-RUN useradd -s /bin/bash dervish
-
 # tools
 
 RUN DEBIAN_FRONTEND=noninteractive \
